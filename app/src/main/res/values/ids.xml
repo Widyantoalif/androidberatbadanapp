@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="text_view_hasil_nama" type="id" />
+    <item name="text_view_hasil_jk" type="id" />
+    <item name="text_view_hasil_bb" type="id" />
+    <item name="text_view_hasil_tb" type="id" />
+    <item name="text_view_hasil_bmi" type="id" />
+    <item name="text_view_hasil" type="id" />
+    <item name="text_view_hasil_ket" type="id" />
+</resources>

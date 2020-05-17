@@ -1,0 +1,2 @@
+rootProject.name='androidberatbadan'
+include ':app'
