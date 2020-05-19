@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,11 +21,12 @@ public class HitungActivity extends AppCompatActivity {
     String hasil;
     String ket;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        getSupportActionBar().setTitle("Hitung Berat & Tinggi Berat badan Anda");
+        getSupportActionBar().setTitle("Input Berat & Tinggi Badan anda");
         edtNama = (EditText)findViewById(R.id.edit_text_nama);
         edtBB = (EditText)findViewById(R.id.edit_text_bb);
         edtTB = (EditText)findViewById(R.id.edit_text_tb);
@@ -53,6 +55,7 @@ public class HitungActivity extends AppCompatActivity {
 //Log.d(“keterangan Perempuan”, “Under Weight/Kurus – Sebaiknya mulai menambah berat badan dan mengkonsumsi makanan berkarbohidrat di imbangi dengan olah raga”);
                     hasil="Under Weight/Kurus";
                     ket = "Sebaiknya mulai menambah berat badan dan mengkonsumsi makanan berkarbohidrat di imbangi dengan olah raga";
+
                 }
                 else if(bmi>=18&&bmi<=25){
 //Log.d(“keterangan Perempuan”,”Normal Weight/Normal – Bagus, berat badan anda termasuk kategori ideal”);

@@ -8,11 +8,14 @@
     android:layout_height="match_parent"
     tools:context=".HitungActivity">
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_alignParentTop="true">
+
+
         <EditText
             android:padding="10dp"
             android:id="@+id/edit_text_nama"
@@ -84,7 +87,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
-                android:background="@color/colorAccent"
+                android:background="@color/colorPrimaryDark"
                 android:text="Cek Hasil"
                 android:textColor="@android:color/white"/>
 

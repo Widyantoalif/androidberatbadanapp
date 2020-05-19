@@ -46,15 +46,7 @@ public class hasilactivity extends AppCompatActivity {
         txtHasil.setText("Hasil : "+hasil);
         txtKet. setText("Keterangan : "+ket);
         }
-//    public void bagikanKeEmail(View view) {
 //
-//        Intent emailIntent = new Intent(Intent.ACTION_SENDTO);
-//        emailIntent.setData(Uri.parse("mailto:")); // only email apps should handle this
-//        emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Laporan Berat Badan "+nama);
-//        emailIntent.putExtra(Intent.EXTRA_TEXT,"Nama : "+nama+"\nJenis Kelamin : "+jk+"\nBerat Badan : "+bb+"\nTinggi Badan : "+tb+"\nBMI : "
-//        +bmi+"\nHasil : "+hasil+"\nKeterangan : "+ket );
-//        if (emailIntent.resolveActivity(getPackageManager()) != null) {
-//            startActivity(emailIntent);
 //        }
 //    }
 }

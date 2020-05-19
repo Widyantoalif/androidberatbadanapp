@@ -50,15 +50,6 @@
         android:id="@+id/text_view_hasil_tb"
         android:textStyle="bold"/>
 
-<!--        <TextView-->
-<!--        android:padding="10dp"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="Hasil BMI : "-->
-<!--        android:textSize="18sp"-->
-<!--        android:id="@+id/text_view_hasil_bmi"-->
-<!--        android:textStyle="bold"/>-->
-
         <TextView
         android:padding="10dp"
         android:layout_width="match_parent"
@@ -67,7 +58,7 @@
         android:textSize="18sp"
         android:id="@+id/text_view_hasil"
         android:textStyle="bold"
-        android:textColor="@android:color/holo_green_dark"/>
+        android:textColor="@android:color/background_dark"/>
         <TextView
         android:padding="10dp"
         android:layout_width="match_parent"
@@ -77,18 +68,4 @@
         android:id="@+id/text_view_hasil_ket"
         android:textStyle="bold"/>
     </LinearLayout>
-<!--    <Button-->
-
-<!--    android:layout_width="match_parent"-->
-<!--    android:layout_height="wrap_content"-->
-<!--    android:layout_alignParentBottom="true"-->
-<!--    android:background="@color/colorPrimaryDark"-->
-<!--    android:text="Bagikan Ke Email"-->
-<!--    android:onClick="bagikanKeEmail"/>-->
-
-
-
-
-
-    
 </RelativeLayout>
